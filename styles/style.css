@@ -413,3 +413,12 @@ footer{
         padding: 20px;
     }
 }
+
+@media (max-width: 768px) {
+    nav {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
